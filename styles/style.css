@@ -37,7 +37,7 @@
 
 .decorated-zone::before {
   border-top: solid 1px var(--main-color);
-  border-right: solid 1px var(--main-color);
+  border-right: solid 1px var(--main-color) ;
   top: 10px;
   right: 10px;
 }
