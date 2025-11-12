@@ -11,6 +11,8 @@
   font-size: 18px;
   line-height: 24px;
   font-weight: normal;
+  margin-bottom: 2px;
+  margin-top: 7px;
 }
 
 .header {
@@ -150,6 +152,8 @@
   background-color: var(--accent-color);
   color: var(--block-title-color);
   font-weight: bold;
+  margin-top: -1px;
+  margin-bottom: 4px;
 }
 
 .section_title {
