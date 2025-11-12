@@ -9,3 +9,7 @@
   --block-title-color: #000028;
   --hover-border-color: #FF007066; 
 }
+
+.theme_dark .header__decor-item {
+  display: flex;
+}
