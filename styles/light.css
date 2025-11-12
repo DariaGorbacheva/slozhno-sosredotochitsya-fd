@@ -16,10 +16,6 @@
   display: none;
 }
 
-.header__decor-item {
-  display: none;
-}
-
 @media (width >= 1024px) {
   .page.theme_light .cover__title,
   .page.theme_light .footer__title {
