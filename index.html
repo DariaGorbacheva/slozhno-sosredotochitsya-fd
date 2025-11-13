@@ -4,16 +4,16 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Сложно сосредоточиться</title>
     <meta name="color-scheme" content="dark light">
-    <script src="./scripts/script.js"></script>
+    <title>Сложно сосредоточиться</title>
     <link rel="stylesheet" href="fonts/fonts.css">
-    <link rel="stylesheet" href="./styles/styles.css">
     <link rel="stylesheet" href="./styles/variables.css">
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="stylesheet" href="./styles/dark.css">
     <link rel="stylesheet" href="./styles/light.css">
+    <link rel="stylesheet" href="./styles/globals.css">
     <link type="Image/x-icon" href="./images/favicon.ico" rel="icon">
+    <script src="./scripts/script.js"></script>
   </head>
   <body class="page">
     <header class="header decorated-zone">
@@ -21,17 +21,20 @@
       <nav class="header__theme-menu">
         <ul class="header__theme-menu-list">
           <li class="header__theme-menu-item">
-            <button class="body_text header__theme-menu-button header__theme-menu-button_type_light">
+            <button
+              class="body_text header__theme-menu-button header__theme-menu-button_type_light">
               День
             </button>
           </li>
           <li class="header__theme-menu-item">
-            <button class="body_text header__theme-menu-button header__theme-menu-button_active header__theme-menu-button_type_auto">
+            <button
+              class="body_text header__theme-menu-button header__theme-menu-button_active header__theme-menu-button_type_auto" >
               Авто
             </button>
           </li>
           <li class="header__theme-menu-item">
-            <button class="body_text header__theme-menu-button header__theme-menu-button_type_dark">
+            <button
+              class="body_text header__theme-menu-button header__theme-menu-button_type_dark">
               Неон
             </button>
           </li>
@@ -39,12 +42,12 @@
       </nav>
       <h1 class="cover__title">no focus</h1>
       <h2 class="body_text header__description title-decor title">
-        Что делать, когда не можешь делать ничего<br/> Или почему нам так сложно сконцентрироваться, особенно когда очень надо
+        Что делать, когда не можешь делать ничего<br/>Или почему нам так сложно сконцентрироваться, особенно когда очень надо
       </h2>
     </header>
-
-     <main class="main__text">
-      <section class="content__section card__problem">
+    
+    <main class="main__text">
+      <section class="content__section card-problem">
         <h2 class="body_text title section_title">Почему сосредоточиться так сложно</h2>
         <div class="article_group">
           <article class="article_reason">
@@ -71,13 +74,13 @@
               Как концентрация может снижаться из-за… концентрации? Любая стрессовая ситуация (и резко меняющийся мир в целом) заставляет наш мозг постоянно «сканировать» окружающую среду на предмет опасности. Например, читать новости вместо работы. Но быть собранными всё время — невозможно. Концентрация — мышца, и она может не выдержать, если не давать ей отдохнуть.
             </p>
           </article>
-          <article class="article_advice">
+          <article class="article_reason">
             <h3 class="body_text title">Еда</h3>
             <p class="body_text card__text">
               «Быстрые углеводы» — сахар, белый хлеб, сладости — молниеносно доставляют в мозг энергию и помогают ему лучше работать. Но уходит эта энергия также быстро, как и приходит. А мы в результате попадаем на «углеводные качели»: как только действие «быстрых углеводов» заканчивается, мы чувствуем усталость и сонливость. И хотим ещё больше быстрых углеводов.
             </p>
           </article>
-          <article class="article_advice">
+          <article class="article_reason">
             <h3 class="body_text title">Гаджеты</h3>
             <p class="body_text card__text">
               Да-да, это та самая ситуация, когда на экране ноутбука — код, в наушниках — подкаст, а на компьютере фоном — ещё и видео с забавными утятами. В результате мозг пытается переключиться с одной задачи на другую — и просто не может. А чтобы вернуться к состоянию полной концентрации, человеку в среднем нужно 20 минут. Вот и получается, что чем больше времени мы проводим в гаджетах, тем больше времени затем нужно, чтобы вернуться к работе.
@@ -89,7 +92,7 @@
         <h2 class="body_text title section_title">Как концентрироваться лучше, чем золотая рыбка (то есть дольше трёх секунд)</h2>
         <div class="article_group">
           <h3 class="body_text title">5 простых (на самом деле не очень) советов</h3>
-          <article class="article_advice">
+          <article class="article_reason">
             <h4 class="body_text title text_normal">Представьте небо и облака</h4>
             <p class="body_text card__text">
               Или листья в ручье. Тут дело в лёгкой медитации, которая помогает успокоиться. Ведь часто именно тревожные мысли о сложных задачах как раз и мешают эти сложные задачи делать. В такие моменты можно закрыть глаза и представить, что чистое небо — это вы, а облака — тревожные мысли. И сколько бы их ни было — ясное небо всегда будет где-то там, за тучами, и никуда не денется. Это упражнение поможет вернуться в настоящий момент, а не волноваться о потенциальных проблемах из будущего.
@@ -103,13 +106,11 @@
           </article>
           <article class="article_reason">
             <h4 class="body_text title text_normal">Прогуляйтесь</h4>
-            <p class="body_text card__text">
-                Или даже пробегитесь. Лучше найти парк или лес: один эксперимент <a href="https://www.sciencedirect.com/science/article/abs/pii/S0272494415000328" target="_blank" class="link">показал</a>, что созерцание природы повышает концентрацию, в то время как после просмотра городских пейзажей она наоборот понижается. Можно совместить прогулку с физическими упражнениями или бегом — так в мозг поступит ещё больше кислорода и он будет лучше работать. Но и простая двадцатиминутная прогулка — тоже отличный вариант.
-            </p>
+            <p class="body_text card__text"> Или даже пробегитесь. Лучше найти парк или лес: один эксперимент <a href="https://www.sciencedirect.com/science/article/abs/pii/S0272494415000328" target="_blank" class="link">показал</a>, что созерцание природы повышает концентрацию, в то время как после просмотра городских пейзажей она наоборот понижается. Можно совместить прогулку с физическими упражнениями или бегом — так в мозг поступит ещё больше кислорода и он будет лучше работать. Но и простая двадцатиминутная прогулка — тоже отличный вариант.</p>
           </article>
           <article class="article_reason">
               <h4 class="body_text title text_normal">Хорошо ешьте</h4>
-              <p class="body_text card__text">
+              <p class="body_text card__text"> 
                 Мы — не ваша бабушка, но это правда важно. Выбирайте продукты, которые препятствуют резким скачкам сахара в крови. Например, с высоким содержанием клетчатки: овощи, ягоды, бобовые (нут, чечевица, фасоль), коричневый рис, хлеб из цельнозерновой пшеницы.
               </p>
           </article>
@@ -124,11 +125,11 @@
       <section class="images-section card-pictures">
         <h2 class="body_text title">А можно в картинках?</h2>
         <div class="card__picture">
-          <img class="card__picture_img" src="./images/sunset.png" alt="Закат" />
-          <img class="card__picture_img" src="./images/ice-cream.png" alt="Мороженое" />
-          <img class="card__picture_img" src="./images/tape.png" alt="Лента" />
-          <img class="card__picture_img" src="./images/books.png" alt="Книги" />
-          <img class="card__picture_img" src="./images/street.png" alt="Улица" />
+          <img class="card__picture_img" src="./images/sunset.png" alt="Закат"/>
+          <img class="card__picture_img" src="./images/ice-cream.png" alt="Мороженое"/>
+          <img class="card__picture_img" src="./images/tape.png" alt="Кассета"/>
+          <img class="card__picture_img" src="./images/books.png" alt="Книги"/>
+          <img class="card__picture_img" src="./images/street.png" alt="Улица"/>
         </div>
       </section>
     </main>
