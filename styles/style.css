@@ -138,7 +138,7 @@
 .main__text {
   display: grid;
   gap: 50px;
-  padding: 0px 10px;
+  padding: 0px 20px;
 }
 
 .content__section {
