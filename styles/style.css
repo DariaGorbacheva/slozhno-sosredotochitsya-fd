@@ -245,8 +245,8 @@
     max-width: 364px;
   }
 
-  .main-text {
-    padding: 0 10px;
+  .main__text {
+    padding: 0 20px;
     gap: 80px;
   }
 
