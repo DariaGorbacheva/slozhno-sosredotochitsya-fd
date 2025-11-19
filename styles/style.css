@@ -260,6 +260,7 @@
   }
  
   .card-pictures .title {
+    margin-block-start: -2px;
     margin-block-end: 20px;
   }
 
