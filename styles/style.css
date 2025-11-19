@@ -168,6 +168,10 @@
   gap: 10px;
 }
 
+.extra {
+  margin-top: -2px;
+}
+
 .card-pictures .title {
   margin-block-end: 10px;
 }
