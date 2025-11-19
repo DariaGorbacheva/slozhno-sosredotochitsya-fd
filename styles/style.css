@@ -173,6 +173,7 @@
 }
 
 .card-pictures .title {
+  margin-top: -1px;
   margin-block-end: 10px;
 }
 
@@ -264,7 +265,6 @@
   }
  
   .card-pictures .title {
-    margin-block-start: -2px;
     margin-block-end: 20px;
   }
 
@@ -339,10 +339,23 @@
     max-width: 491px;
   }
 
+  .article_reason_special {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: -7px;
+  }
+
   .cover__title,
   .footer__title {
     --title-text-shadow: #ff0070;
   }
+
+  .card-how .article_group {
+    margin-top: 2px;
+    margin-left: -7px; 
+  }
+  
 
   .card-what .article_group {
     grid-template-columns: 1fr 1fr 1fr;
