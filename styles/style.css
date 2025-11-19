@@ -339,13 +339,6 @@
     max-width: 491px;
   }
 
-  .article_reason_special {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    margin-left: -7px;
-  }
-
   .cover__title,
   .footer__title {
     --title-text-shadow: #ff0070;
