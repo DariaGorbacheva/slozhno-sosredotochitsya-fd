@@ -351,12 +351,6 @@
     --title-text-shadow: #ff0070;
   }
 
-  .card-how .article_group, .card-problem .article_group  {
-    position: relative;
-    right: 5px;
-    margin-top: 2px;
-  }
-  
   .card-what .article_group {
     grid-template-columns: 1fr 1fr 1fr;
   }
