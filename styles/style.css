@@ -205,8 +205,6 @@
   outline: 1px solid var(--text-color);
 }
 
-
-
 .card__picture {
   display: grid;
   gap: 10px;
@@ -344,11 +342,16 @@
     max-width: 491px;
   }
 
+  .article_group_width {
+    display: grid;
+    gap: 20px;
+    min-width: 650px;
+  }
+
   .cover__title,
   .footer__title {
     --title-text-shadow: #ff0070;
   }
-  
 
   .card-how .article_group, .card-problem .article_group  {
     position: relative;
@@ -356,7 +359,6 @@
     margin-top: 2px;
   }
   
-
   .card-what .article_group {
     grid-template-columns: 1fr 1fr 1fr;
   }
