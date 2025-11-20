@@ -342,9 +342,7 @@
     max-width: 491px;
   }
 
-  .article_group_width {
-    display: grid;
-    gap: 20px;
+  .width {
     min-width: 650px;
   }
 
