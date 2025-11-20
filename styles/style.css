@@ -348,6 +348,7 @@
   .footer__title {
     --title-text-shadow: #ff0070;
   }
+  
 
   .card-how .article_group, .card-problem .article_group  {
     position: relative;
