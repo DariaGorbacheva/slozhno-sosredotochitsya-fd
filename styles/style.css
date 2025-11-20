@@ -168,10 +168,6 @@
   gap: 10px;
 }
 
-.extra {
-  margin-top: -2px;
-}
-
 .card-pictures .title {
   margin-top: -1px;
   margin-block-end: 10px;
@@ -337,10 +333,6 @@
 
   .title-decor {
     max-width: 491px;
-  }
-
-  .special {
-    margin-left: -7px;
   }
 
   .cover__title,
