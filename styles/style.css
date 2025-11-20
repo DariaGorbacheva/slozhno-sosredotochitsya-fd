@@ -144,6 +144,7 @@
 .content__section {
   display: grid;
   gap: 20px;
+
 }
 
 .title {
@@ -158,6 +159,8 @@
 }
 
 .article_group {
+  position: relative;
+  bottom: 1px;
   display: grid;
   gap: 20px;
 }
@@ -168,8 +171,12 @@
   gap: 10px;
 }
 
+.card-pictures {
+  position: relative;
+  bottom: 2px;
+}
+
 .card-pictures .title {
-  margin-top: -1px;
   margin-block-end: 10px;
 }
 
@@ -197,6 +204,8 @@
 .link:focus-visible {
   outline: 1px solid var(--text-color);
 }
+
+
 
 .card__picture {
   display: grid;
@@ -340,9 +349,10 @@
     --title-text-shadow: #ff0070;
   }
 
-  .card-how .article_group {
+  .card-how .article_group, .card-problem .article_group  {
+    position: relative;
+    right: 5px;
     margin-top: 2px;
-    margin-left: -7px; 
   }
   
 
