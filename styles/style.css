@@ -159,8 +159,6 @@
 }
 
 .article_group {
-  position: relative;
-  bottom: 1px;
   display: grid;
   gap: 20px;
 }
@@ -169,11 +167,6 @@
   display: flex;
   flex-direction: column;
   gap: 10px;
-}
-
-.card-pictures {
-  position: relative;
-  bottom: 2px;
 }
 
 .card-pictures .title {
@@ -242,7 +235,7 @@
 
   .header {
     padding: 20px;
-    height: 1024px;
+    min-height: 1024px;
   }
   
   .cover__title {
@@ -326,7 +319,7 @@
 @media (width >= 1024px) {
 
   .header {
-    height: 768px;
+    min-height: 768px;
   }
   
   .header__theme-menu {
